@@ -1,13 +1,12 @@
 import styled from "styled-components";
 
 const Button = styled.a`
-    color: var(--white);
-    border: 1px solid var(--white);
+    color: #ff9000;
+    border: 1px solid #ff9000;
     box-sizing: border-box;
     cursor: pointer;
     padding: 16px 24px;
     font-style: normal;
-    font-weight: bold;
     font-size: 16px;
     outline: none;
     border-radius: 5px;

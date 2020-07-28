@@ -11,7 +11,6 @@ function Menu(){
             <a href="/">
                 <img className="Logo" src={Logo} alt="ComedyFlix Logo"/>
             </a>
-
             <Button as="a" className="ButtonLink" href="/">
                 Novo vídeo
             </Button>
