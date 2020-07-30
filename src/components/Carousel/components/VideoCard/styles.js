@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const VideoCardContainer = styled.a`
-  border: 1px 
+  border: 1px ;
   text-decoration: none;
   overflow: hidden;
   cursor: pointer;
