@@ -32,7 +32,9 @@ function CadastroCategoria() {
   useEffect(() => {
     console.log('teste');
 
-    const URL = 'http://localhost:8080/categorias';
+    const URL = window.location.hostname.includes('localhost')
+      ? 'http://localhost:3000/categorias'
+      : 'https://comedyflix.herokuapp.com/categorias';
 
     fetch(URL)
       .then(async (respostaDoServidor) => {
@@ -41,24 +43,6 @@ function CadastroCategoria() {
           ...resposta,
         ]);
       });
-
-    // setTimeout(() => {
-    //   setCategorias([
-    //     ...categorias,
-    //     {
-    //       id: 1,
-    //       nome: 'Front End',
-    //       descricao: 'Uma categoria show',
-    //       cor: '#CBD1FF',
-    //     },
-    //     {
-    //       id: 2,
-    //       nome: 'Back End',
-    //       descricao: 'Outra categoria show',
-    //       cor: '#CBD1FF',
-    //     },
-    //   ]);
-    // }, 4 * 1000);
   }, [values.nome]);
 
   return (
