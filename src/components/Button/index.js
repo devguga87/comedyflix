@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 const Button = styled.button`
     color: #ff9000;
@@ -20,4 +20,4 @@ const Button = styled.button`
   }
 `;
 
-export default Button
+export default Button;
