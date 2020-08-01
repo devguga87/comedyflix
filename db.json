@@ -1,162 +1,189 @@
 {
   "categorias": [
-  {
-    "titulo": "Pegadinhas",
-    "link": "https://www.youtube.com/watch?v=hO96A8gOmII",
-    "cor": "#FF9000",
-    "link_extra": {
-      "text": "Acompanhe as melhores pegadinhas da internet",
-      "url": "https://www.youtube.com/watch?v=hO96A8gOmII"
-    },
-    "videos": [
-      {
-        "titulo": "Só Agradece - Especial #ThiagoVentura",
-        "url": "https://www.youtube.com/watch?v=X-5tCDJ_XDg&t=220s"
-      },
-      {
-        "titulo": "Top 10 Pranks Gags",
-        "url": "https://www.youtube.com/watch?v=jv5RtGHKLWg"
-      },
-      {
-        "titulo": "Atirador de elite",
-        "url": "https://www.youtube.com/watch?v=rUPCjn3e72E"
-      },
-      {
-        "titulo": "Best of Mall Pranks",
-        "url": "https://www.youtube.com/watch?v=KJ_0ywY3VSU"
-      },
-      {
-        "titulo": "Grocery Store Pranks Vol 2",
-        "url": "https://www.youtube.com/watch?v=QLp7DrLzFXI"
-      },
-      {
-        "titulo": "Dad pranks",
-        "url": "https://www.youtube.com/watch?v=7PtTIxnHptc"
-      },
-      {
-        "titulo": "Dad pranks",
-        "url": "https://www.youtube.com/watch?v=7PtTIxnHptc"
+    {
+      "id": 1,
+      "titulo": "Pegadinhas",
+      "cor": "#FF9000",
+      "link_extra": {
+        "text": "Acompanhe as melhores pegadinhas da internet",
+        "url": "https://www.youtube.com/watch?v=hO96A8gOmII"
       }
-         
-    ]
-  },
-  {
-    "titulo": "Stand Up Comedy",
-    "cor": "#00C86F",
-    "link_extra": {
-      "text": "Os melhores trechos de stand up",
+    },
+    {
+      "id": 2,
+      "titulo": "Stand Up Comedy",
+      "cor": "#00C86F",
+      "link_extra": {
+        "text": "Os melhores trechos de stand up",
+        "url": "https://www.youtube.com/watch?v=nSV82NN_Koc"
+      }
+    },
+    {
+      "id": 3 ,
+      "titulo": "Shows Completos",
+      "cor": "#c53030",
+      "link_extra": {
+        "text": "Shows de stand up que fizeram sucesso",
+        "url": "https://www.alura.com.br/formacao-data-science"
+      }
+    },
+    {
+      "id": 4 ,
+      "titulo": "Filmes",
+      "cor": "orange",
+      "link_extra": {
+        "text": "Filmes que fizeram sucesso",
+        "url": "https://www.youtube.com/watch?v=rdloedJV48E"
+      }
+    },
+    {
+      "id": 5 ,
+      "titulo": "Séries",
+      "cor": "red",
+      "link_extra": {
+        "text": "As melhores series de comedia",
+        "url": "https://www.youtube.com/watch?v=s5tFMfi47aE"
+      }
+    }
+   ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "Só Agradece - Especial #ThiagoVentura",
+      "url": "https://www.youtube.com/watch?v=X-5tCDJ_XDg&t=220s"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "Top 10 Pranks Gags",
+      "url": "https://www.youtube.com/watch?v=jv5RtGHKLWg"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "Atirador de elite",
+      "url": "https://www.youtube.com/watch?v=rUPCjn3e72E"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "Best of Mall Pranks",
+      "url": "https://www.youtube.com/watch?v=KJ_0ywY3VSU"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "Grocery Store Pranks Vol 2",
+      "url": "https://www.youtube.com/watch?v=QLp7DrLzFXI"
+    },
+    {
+      "id": 6,
+      "categoriaId": 1,
+      "titulo": "Dad pranks",
+      "url": "https://www.youtube.com/watch?v=7PtTIxnHptc"
+    },
+    {
+      "id": 7,
+      "categoriaId": 2,
+      "titulo": "Fábio Rabin - Cortei o cabelo da minha filha",
       "url": "https://www.youtube.com/watch?v=nSV82NN_Koc"
     },
-    "videos": [
-      {
-        "titulo": "Fábio Rabin - Cortei o cabelo da minha filha",
-        "url": "https://www.youtube.com/watch?v=nSV82NN_Koc"
-      },
-      {
-        "titulo": "Fábio Rabin - Cortei o cabelo da minha filha",
-        "url": "https://www.youtube.com/watch?v=nSV82NN_Koc"
-      },
-      {
-        "titulo": "Murilo Couto - Improviso",
-        "url": "https://www.youtube.com/watch?v=yMev44QIXLc"
-      },
-      {
-        "titulo": "Leo lins - Na fila de piadas",
-        "url": "https://www.youtube.com/watch?v=nG140WXUTBs&t=16s"
-      }, 
-      {
-        "titulo": "Ed Gama - O dia que sofri um acidente de carro",
-        "url": "https://www.youtube.com/watch?v=3LazN0qWwwA"
-      }
-    ]
-  },
-  {
-    "titulo": "Shows Completos",
-    "cor": "#c53030",
-    "link_extra": {
-      "text": "Shows de stand up que fizeram sucesso",
-      "url": "https://www.alura.com.br/formacao-data-science"
+    {
+      "id": 8,
+      "categoriaId": 2,
+      "titulo": "Murilo Couto - Improviso",
+      "url": "https://www.youtube.com/watch?v=yMev44QIXLc"
     },
-    "videos": [
-      {
-        "titulo": "Teste de Turing",
-        "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
-      },
-      {
-        "titulo": "Thiago Ventura I Especial Só Agradece l Legendado [4K]",
-        "url": "https://www.youtube.com/watch?v=X-5tCDJ_XDg&t=220s"
-      },
-      {
-        "titulo": "Nando Viana - A vida não tá nem aí pro seu planejamento",
-        "url": "https://www.youtube.com/watch?v=DeQk9KXg4Co"
-      },
-      {
-        "titulo": "Fábio Rabin - Tô Viajando",
-        "url": "https://www.youtube.com/watch?v=eMepgXvAKmA"
-      },
-      {
-        "titulo": "AFONSO PADILHA STAND UP COMPLETO - PRA CHORAR DE RIR!",
-        "url": "https://www.youtube.com/watch?v=8e7YhZlSMP0"
-      },
-      {
-        "titulo": "RAFINHA BASTOS EM PÉSSIMA INFLUÊNCIA",
-        "url": "https://www.youtube.com/watch?v=JloWLBlLApE"
-      }
-    ]
-  },
-  {
-    "titulo": "Filmes",
-    "cor": "orange",
-    "videos": [
-      {
-        "titulo": "Interestellar",
-        "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
-      },
-      {
-        "titulo": "ANJOS DA LEI 2",
-        "url": "https://www.youtube.com/watch?v=rdloedJV48E"
-      },
-      {
-        "titulo": "Gênios do crime",
-        "url": "https://www.youtube.com/watch?v=5gI5tXvTnzk"
-      },
-      {
-        "titulo": "Minha mãe é uma peça 3",
-        "url": "https://www.youtube.com/watch?v=ZuxfBrWwy8c"
-      },
-      {
-        "titulo": "Vai que cola 2",
-        "url": "https://www.youtube.com/watch?v=VyVbTvAdLG8"
-      }
-    ]
-  },
-  {
-    "titulo": "Séries",
-    "cor": "red",
-    "link_extra": {
-      "text": "As melhores series de comedia",
-      "url": "https://www.alura.com.br/formacao-jogos-unity"
+    {
+      "id": 9,
+      "categoriaId": 2,
+      "titulo": "Leo lins - Na fila de piadas",
+      "url": "https://www.youtube.com/watch?v=nG140WXUTBs&t=16s"
     },
-    "videos": [
-      {
-        "titulo": "Big Bang Theory",
-        "url": "https://www.youtube.com/watch?v=s5tFMfi47aE"
-      },
-      {
-        "titulo": "Friends",
-        "url": "https://www.youtube.com/watch?v=mXcuZcSReqU"
-      },
-      {
-        "titulo": "Big Bang Theory",
-        "url": "https://www.youtube.com/watch?v=s5tFMfi47aE"
-      },
-      {
-        "titulo": "Two and a half men",
-        "url": "https://www.youtube.com/watch?v=SlCHwwD_tBg"
-      }
-      
-    ]
-  }
+    {
+      "id": 10,
+      "categoriaId": 2,
+      "titulo": "Ed Gama - O dia que sofri um acidente de carro",
+      "url": "https://www.youtube.com/watch?v=3LazN0qWwwA"
+    },
+    {
+      "id": 11,
+      "categoriaId": 3,
+      "titulo": "Thiago Ventura I Especial Só Agradece l Legendado [4K]",
+      "url": "https://www.youtube.com/watch?v=X-5tCDJ_XDg&t=220s"
+    },
+    {
+      "id": 12,
+      "categoriaId": 3,
+      "titulo": "Nando Viana - A vida não tá nem aí pro seu planejamento",
+      "url": "https://www.youtube.com/watch?v=DeQk9KXg4Co"
+    },
+    {
+      "id": 13,
+      "categoriaId": 3,
+      "titulo": "Fábio Rabin - Tô Viajando",
+      "url": "https://www.youtube.com/watch?v=eMepgXvAKmA"
+    },
+    {
+      "id": 14,
+      "categoriaId": 3,
+      "titulo": "AFONSO PADILHA STAND UP COMPLETO - PRA CHORAR DE RIR!",
+      "url": "https://www.youtube.com/watch?v=8e7YhZlSMP0"
+    },
+    {
+      "id": 15,
+      "categoriaId": 3,
+      "titulo": "RAFINHA BASTOS EM PÉSSIMA INFLUÊNCIA",
+      "url": "https://www.youtube.com/watch?v=JloWLBlLApE"
+    },
+    {
+      "id": 16,
+      "categoriaId": 4,
+      "titulo": "ANJOS DA LEI 2",
+      "url": "https://www.youtube.com/watch?v=rdloedJV48E"
+    },
+    {
+      "id": 17,
+      "categoriaId": 4,
+      "titulo": "Gênios do crime",
+      "url": "https://www.youtube.com/watch?v=5gI5tXvTnzk"
+    },
+    {
+      "id": 18,
+      "categoriaId": 4,
+      "titulo": "Minha mãe é uma peça 3",
+      "url": "https://www.youtube.com/watch?v=ZuxfBrWwy8c"
+    },
+    {
+      "id": 19,
+      "categoriaId": 4,
+      "titulo": "Vai que cola 2",
+      "url": "https://www.youtube.com/watch?v=VyVbTvAdLG8"
+    },
+    {
+      "id": 20,
+      "categoriaId": 5,
+      "titulo": "Big Bang Theory",
+      "url": "https://www.youtube.com/watch?v=s5tFMfi47aE"
+    },
+    {
+      "id": 21,
+      "categoriaId": 5,
+      "titulo": "Friends",
+      "url": "https://www.youtube.com/watch?v=mXcuZcSReqU"
+    },
+    {
+      "id": 22,
+      "categoriaId": 5,
+      "titulo": "Two and a half men",
+      "url": "https://www.youtube.com/watch?v=SlCHwwD_tBg"
+    }
+
+  ]
   
-]
 }
+
+
+  
+ 
