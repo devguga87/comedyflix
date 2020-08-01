@@ -1,16 +1,162 @@
 {
   "categorias": [
-    {
-      "id":1,
-      "nome":"Front End",
-      "descricao":"Uma categoria show",
-      "cor":"#CBD1FF"
+  {
+    "titulo": "Pegadinhas",
+    "link": "https://www.youtube.com/watch?v=hO96A8gOmII",
+    "cor": "#FF9000",
+    "link_extra": {
+      "text": "Acompanhe as melhores pegadinhas da internet",
+      "url": "https://www.youtube.com/watch?v=hO96A8gOmII"
     },
-    {
-      "id":2,
-      "nome":"Back End",
-      "descricao":"Outra categoria show",
-      "cor":"#CBD1FF"
-    }
-  ]
+    "videos": [
+      {
+        "titulo": "Só Agradece - Especial #ThiagoVentura",
+        "url": "https://www.youtube.com/watch?v=X-5tCDJ_XDg&t=220s"
+      },
+      {
+        "titulo": "Top 10 Pranks Gags",
+        "url": "https://www.youtube.com/watch?v=jv5RtGHKLWg"
+      },
+      {
+        "titulo": "Atirador de elite",
+        "url": "https://www.youtube.com/watch?v=rUPCjn3e72E"
+      },
+      {
+        "titulo": "Best of Mall Pranks",
+        "url": "https://www.youtube.com/watch?v=KJ_0ywY3VSU"
+      },
+      {
+        "titulo": "Grocery Store Pranks Vol 2",
+        "url": "https://www.youtube.com/watch?v=QLp7DrLzFXI"
+      },
+      {
+        "titulo": "Dad pranks",
+        "url": "https://www.youtube.com/watch?v=7PtTIxnHptc"
+      },
+      {
+        "titulo": "Dad pranks",
+        "url": "https://www.youtube.com/watch?v=7PtTIxnHptc"
+      }
+         
+    ]
+  },
+  {
+    "titulo": "Stand Up Comedy",
+    "cor": "#00C86F",
+    "link_extra": {
+      "text": "Os melhores trechos de stand up",
+      "url": "https://www.youtube.com/watch?v=nSV82NN_Koc"
+    },
+    "videos": [
+      {
+        "titulo": "Fábio Rabin - Cortei o cabelo da minha filha",
+        "url": "https://www.youtube.com/watch?v=nSV82NN_Koc"
+      },
+      {
+        "titulo": "Fábio Rabin - Cortei o cabelo da minha filha",
+        "url": "https://www.youtube.com/watch?v=nSV82NN_Koc"
+      },
+      {
+        "titulo": "Murilo Couto - Improviso",
+        "url": "https://www.youtube.com/watch?v=yMev44QIXLc"
+      },
+      {
+        "titulo": "Leo lins - Na fila de piadas",
+        "url": "https://www.youtube.com/watch?v=nG140WXUTBs&t=16s"
+      }, 
+      {
+        "titulo": "Ed Gama - O dia que sofri um acidente de carro",
+        "url": "https://www.youtube.com/watch?v=3LazN0qWwwA"
+      }
+    ]
+  },
+  {
+    "titulo": "Shows Completos",
+    "cor": "#c53030",
+    "link_extra": {
+      "text": "Shows de stand up que fizeram sucesso",
+      "url": "https://www.alura.com.br/formacao-data-science"
+    },
+    "videos": [
+      {
+        "titulo": "Teste de Turing",
+        "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+      },
+      {
+        "titulo": "Thiago Ventura I Especial Só Agradece l Legendado [4K]",
+        "url": "https://www.youtube.com/watch?v=X-5tCDJ_XDg&t=220s"
+      },
+      {
+        "titulo": "Nando Viana - A vida não tá nem aí pro seu planejamento",
+        "url": "https://www.youtube.com/watch?v=DeQk9KXg4Co"
+      },
+      {
+        "titulo": "Fábio Rabin - Tô Viajando",
+        "url": "https://www.youtube.com/watch?v=eMepgXvAKmA"
+      },
+      {
+        "titulo": "AFONSO PADILHA STAND UP COMPLETO - PRA CHORAR DE RIR!",
+        "url": "https://www.youtube.com/watch?v=8e7YhZlSMP0"
+      },
+      {
+        "titulo": "RAFINHA BASTOS EM PÉSSIMA INFLUÊNCIA",
+        "url": "https://www.youtube.com/watch?v=JloWLBlLApE"
+      }
+    ]
+  },
+  {
+    "titulo": "Filmes",
+    "cor": "orange",
+    "videos": [
+      {
+        "titulo": "Interestellar",
+        "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+      },
+      {
+        "titulo": "ANJOS DA LEI 2",
+        "url": "https://www.youtube.com/watch?v=rdloedJV48E"
+      },
+      {
+        "titulo": "Gênios do crime",
+        "url": "https://www.youtube.com/watch?v=5gI5tXvTnzk"
+      },
+      {
+        "titulo": "Minha mãe é uma peça 3",
+        "url": "https://www.youtube.com/watch?v=ZuxfBrWwy8c"
+      },
+      {
+        "titulo": "Vai que cola 2",
+        "url": "https://www.youtube.com/watch?v=VyVbTvAdLG8"
+      }
+    ]
+  },
+  {
+    "titulo": "Séries",
+    "cor": "red",
+    "link_extra": {
+      "text": "As melhores series de comedia",
+      "url": "https://www.alura.com.br/formacao-jogos-unity"
+    },
+    "videos": [
+      {
+        "titulo": "Big Bang Theory",
+        "url": "https://www.youtube.com/watch?v=s5tFMfi47aE"
+      },
+      {
+        "titulo": "Friends",
+        "url": "https://www.youtube.com/watch?v=mXcuZcSReqU"
+      },
+      {
+        "titulo": "Big Bang Theory",
+        "url": "https://www.youtube.com/watch?v=s5tFMfi47aE"
+      },
+      {
+        "titulo": "Two and a half men",
+        "url": "https://www.youtube.com/watch?v=SlCHwwD_tBg"
+      }
+      
+    ]
+  }
+  
+]
 }
