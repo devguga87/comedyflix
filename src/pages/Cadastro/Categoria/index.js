@@ -17,8 +17,6 @@ function CadastroCategoria() {
   const [categorias, setCategorias] = useState([]);
 
   useEffect(() => {
-    console.log('teste');
-
     const URL = window.location.hostname.includes('localhost')
       ? 'http://localhost:8080/categorias'
       : 'https://comedyflix.herokuapp.com/categorias';
@@ -30,7 +28,7 @@ function CadastroCategoria() {
           ...resposta,
         ]);
       });
-  }, [values.nome]);
+  });
 
   return (
     <PageDefault>
