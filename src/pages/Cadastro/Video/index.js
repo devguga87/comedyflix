@@ -32,7 +32,8 @@ function CadastroVideo() {
         event.preventDefault();
         alert('Video cadastrado com sucesso');
 
-        const categoriaEscolhida = categorias.find((categoria) => categoria.titulo === values.categorias);
+        const categoriaEscolhida = categorias
+          .find((categoria) => categoria.titulo === values.categorias);
         console.log(categoriaEscolhida);
 
         videosRepositories.create({
