@@ -28,7 +28,7 @@ function CadastroCategoria() {
           ...resposta,
         ]);
       });
-  });
+  }, []);
 
   return (
     <PageDefault>
@@ -51,7 +51,6 @@ function CadastroCategoria() {
 
         <FormField
           label="Nome da categoria"
-          type="text"
           name="nome"
           value={values.nome}
           onChange={handleChange}

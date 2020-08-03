@@ -19,7 +19,7 @@
       }
     },
     {
-      "id": 3 ,
+      "id": 3,
       "titulo": "Shows Completos",
       "cor": "#c53030",
       "link_extra": {
@@ -28,7 +28,7 @@
       }
     },
     {
-      "id": 4 ,
+      "id": 4,
       "titulo": "Filmes",
       "cor": "orange",
       "link_extra": {
@@ -37,7 +37,7 @@
       }
     },
     {
-      "id": 5 ,
+      "id": 5,
       "titulo": "Séries",
       "cor": "red",
       "link_extra": {
@@ -45,7 +45,7 @@
         "url": "https://www.youtube.com/watch?v=s5tFMfi47aE"
       }
     }
-   ],
+  ],
   "videos": [
     {
       "id": 1,
@@ -179,11 +179,5 @@
       "titulo": "Two and a half men",
       "url": "https://www.youtube.com/watch?v=SlCHwwD_tBg"
     }
-
   ]
-  
 }
-
-
-  
- 
